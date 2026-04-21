@@ -1,0 +1,110 @@
+/* ======================================================== */
+/* RESET GERAL (Mata as bordas azuis/brancas do navegador)  */
+/* ======================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /* Fundo com a cor amarela do seu design, para caso a tela seja muito longa */
+    background-color: #F8E58A; 
+    overflow-x: hidden; 
+    /* Evita barra de rolagem horizontal */
+}
+
+/* ======================================================== */
+/* ESTRUTURA DOS BLOCOS (O Segredo da Tela Cheia)           */
+/* ======================================================== */
+.top-section, .bottom-section {
+    position: relative; /* Permite que os itens flutuem dentro dessa área */
+    width: 100vw;       /* 100% da largura da tela */
+    font-size: 0;       /* Remove aquele espaço fantasma que o HTML coloca embaixo de imagens */
+}
+
+.bg-img {
+    width: 100%;        /* A imagem expande para cobrir toda a largura */
+    height: 100%;       /* A altura se ajusta sozinha, mantendo a proporção */
+    display: block;
+}
+
+/* ======================================================== */
+/* 1. MENU SUPERIOR (Centralizado no topo)                  */
+/* ======================================================== */
+.nav-bar {
+    position: absolute;
+    top: 3%; /* Distância do topo da imagem */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza o menu */
+    gap: 60px; /* Espaço entre os links */
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombrinha estilo jogo */
+    transition: color 0.2s;
+}
+
+.nav-bar a.active, .nav-bar a:hover {
+    color: #F9EC88; /* Amarelinho ao passar o mouse ou tela ativa */
+}
+
+/* ======================================================== */
+/* 2. BOTÕES (Abaixo do texto, Centralizados e Escala 0.6)  */
+/* ======================================================== */
+.buttons-container {
+    position: absolute;
+    /* Essa porcentagem (top) determina a altura deles. Aumente se precisar descer mais */
+    top: -11%;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    align-items: center;
+    gap: 20px;
+    transform: scale(0.25); /* Escala exata solicitada */
+}
+
+.board-link {
+    transition: transform 0.2s ease;
+}
+
+.board-link:hover {
+    transform: translateY(-10px); /* Botão dá um pulinho ao passar o mouse */
+}
+
+/* ======================================================== */
+/* 3. RODAPÉ (Na base de madeira)                           */
+/* ======================================================== */
+.site-footer {
+    position: absolute;
+    bottom: 3%; /* Ajuste essa porcentagem se o texto do rodapé sair do centro da madeira */
+    width: 100%;
+    height: 150px; /* <-- NOVA ALTURA APLICADA AQUI */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.site-footer a {
+    font-family:'Segoe UI';
+    color: rgb(156, 95, 5);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.site-footer a:hover {
+    color: #F9EC88;
+}
+
+
+
