@@ -3,41 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/guia-css.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-    <title>Guia Centro Comunitário</title>
+    <title>Guia Stardew</title>
 </head>
 <body>
-   <div class="camada-conteudo">
-    
-    <div id="carrossel-viewport">
-        
-        <button class="btn-seta btn-esq" onclick="mudarCategoria(-1)">◀</button>
-        <button class="btn-seta btn-dir" onclick="mudarCategoria(1)">▶</button>
-        
-        <div id="carrossel-trilho">
+
+    <div class="mural-viewport">
+        <div class="mural-nav-top">
+            <div class="header-scroll">
+                <h1 id="titulo-categoria-atual">Carregando...</h1>
+            </div>
+            
+            <div class="nav-buttons">
+                <img src="../assets/images/botoes/btn-tutorial.png" onclick="abrirTutorial()" alt="Ajuda">
+                <a href="../index.html">
+                    <img src="../assets/images/botoes/btn-home.png" alt="Início">
+                </a>
+            </div>
+        </div>
+
+        <main class="mural-board">
+            
+            <button class="btn-pixel seta-carrossel btn-esq" onclick="mudarCategoria(-1)">◄</button>
+            <button class="btn-pixel seta-carrossel btn-dir" onclick="mudarCategoria(1)">►</button>
+
+            <div id="carrossel-viewport">
+                <div id="carrossel-trilho">
+                    </div>
             </div>
 
+            <div id="area-arvore" style="display: none;">
+                <h2 id="titulo-arvore">Nome do Conjunto</h2>
+                <div class="arvore-wrapper">
+                    <img src="../assets/images/tree.png" alt="Árvore" class="imagem-arvore">
+                    <div id="arvore-botoes-container"></div>
+                </div>
+                <div id="area-recompensa" class="ui-card">
+                    <div class="recompensa-conteudo">
+                        <img id="recompensa-icone" src="" alt="Ícone">
+                        <span id="recompensa-texto">Recompensa: </span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
     </div>
 
-    <div id="area-arvore">
-        <div class="arvore-wrapper">
-            <img src="../assets/images/tree.png" alt="Árvore" class="imagem-arvore">
-            <div id="arvore-botoes-container"></div>
-        </div>
-    </div>
-
-    <div id="modal-item" class="modal-escondido">
-        <div class="modal-conteudo">
-            <button onclick="fecharModal()">X</button>
-            <h2 id="modal-titulo">Carregando...</h2>
-            <img id="modal-imagem" src="" alt="">
-            <p id="modal-descricao"></p>
-            <p><strong>Como obter: </strong> <span id="modal-como-obter"></span></p>
-        </div>
-    </div>
-
-</div>
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/data.js"></script>
 </body>
 </html>
