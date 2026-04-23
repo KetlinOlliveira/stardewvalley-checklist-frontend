@@ -1,0 +1,160 @@
+/* ================= CORPO DA PÁGINA E FUNDO ================= */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Coloque aqui o caminho para a sua imagem da montanha à noite */
+    background-image: url('../images/sobre/background-sobre.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; /* Mantém a fonte do jogo */
+}
+
+/* ================= CONTAINER DO PERGAMINHO ================= */
+.journal-container {
+    position: relative;
+    width: 90%; /* Em celulares ocupa 90% da tela */
+    max-width: 1400px; /* Em PC, não passa de 900px para não esticar demais */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.6)); /* Dá uma sombrinha para destacar da noite */
+}
+
+.imagem-pergaminho {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ================= TEXTO SOBREPOSTO ================= */
+.area-texto {
+    position: absolute;
+    /* Essas porcentagens mantêm o texto dentro do quadrado, mesmo se a tela diminuir */
+    top: 25%; 
+    left: 26.5%; 
+    width: 50%; 
+    height: 50%; /* Limita a altura para não escrever em cima dos gatinhos */
+    text-align: center;
+    color: #4a2e00;
+    box-sizing: border-box;
+}
+
+.area-texto h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.area-texto p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* ================= BOTÃO HOME (CASINHA NO TOPO) ================= */
+.botao-home {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 45px;
+    height: auto;
+    z-index: 100;
+    transition: transform 0.2s;
+}
+
+.botao-home:hover {
+    transform: scale(1.1);
+}
+
+/* ================= BÔNUS: SETA LARANJA INVISÍVEL ================= */
+/* Como a imagem do journal tem uma seta desenhada, criei um link invisível por cima dela! */
+.seta-voltar-invisivel {
+    position: absolute;
+    top: 15%; /* Ajuste a porcentagem se a área clicável não bater exatamente na seta */
+    left: 8%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 10;
+    /* DICA: Descomente a linha abaixo para ver um quadrado vermelho e saber exatamente onde a área de clique está, depois apague! */
+    /* border: 2px solid red; */
+}
+
+.nome {
+    color: rgb(240, 96, 144);
+}
+
+.centro {
+    color: blue;
+}
+/* ================= REDES SOCIAIS ================= */
+.redes-sociais {
+    position: absolute;
+    bottom: -33%; /* Ajusta para ficar alinhado aos gatinhos */
+    right: 40%;  /* Posiciona ao lado esquerdo dos gatos */
+    display: flex;
+    gap: 30px;   /* Espaço entre os ícones */
+}
+
+.redes-sociais img {
+    width: 35px; /* Tamanho dos ícones */
+    height: auto;
+    /* ESSA LINHA É ESSENCIAL PARA PIXEL ART: */
+    image-rendering: pixelated; 
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2); /* Aumenta um pouco ao passar o rato */
+    filter: brightness(1.2); /* Dá um brilho extra */
+}
+
+/* ================= BOTÃO HOME ================= */
+.botao-home {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 70px; /* Reduzimos para um tamanho ideal de botão */
+    height: auto; /* Mantém a proporção correta */
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.2s;
+    display: inline-block; /* Garante que o link aceite tamanhos certinhos */
+}
+
+/* Força a imagem DENTRO do link a respeitar o tamanho de 60px */
+.botao-home img {
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated; /* Mantém o estilo pixel art bonitão */
+}
+
+.botao-home:hover {
+    transform: scale(1.1);
+}
+
+
+/* ================= RESPONSIVIDADE (CELULARES) ================= */
+@media (max-width: 600px) {
+    .area-texto h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .area-texto p {
+        font-size: 0.85rem;
+    }
+      .redes-sociais {
+        bottom: -20%;
+        right: 40%;
+    }
+    .redes-sociais img {
+        width: 25px;
+    }
+}
