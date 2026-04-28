@@ -14,7 +14,7 @@ function App() {
         {/* Rota do Guia Interativo */}
         <Route path="/guia" element={<MuralComunidade />} />
         
-        {/* Rota da Página Sobre - AGORA APONTANDO PARA O COMPONENTE REAL */}
+        {/* Rota da Página Sobre */}
         <Route path="/sobre" element={<Sobre />} /> 
       </Routes>
     </Router>

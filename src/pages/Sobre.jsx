@@ -38,12 +38,13 @@ export default function Sobre() {
             </div>
             {/* Texto menor no celular para melhor leitura */}
             <p className="font-sans font-bold text-sm md:text-lg leading-relaxed text-[#4D2607]">
-              Este projeto nasceu da necessidade de criar uma ferramenta prática e imersiva para jogadores de Stardew Valley.
+              Este projeto nasceu da necessidade de criar uma ferramenta prática e imersiva para jogadores de Stardew Valley. Sem fins lucrativos, o guia é de fácil uso para jogadores que ainda não completaram o Centro Comunitário.
             </p>
             <p className="font-sans font-bold text-sm md:text-lg leading-relaxed text-[#4D2607]">
               Toda a interface foi construída com <strong>React e Tailwind CSS</strong> garantindo responsividade, consumindo dados de uma API RESTful em <strong>Java (Spring Boot)</strong>.
             </p>
           </section>
+            
 
           <section className="flex flex-col gap-3 md:gap-4">
             <div className="flex items-center gap-3 border-b-4 border-dashed border-[#d1a36a] pb-2">
@@ -51,14 +52,24 @@ export default function Sobre() {
               <h2 className="font-['Press_Start_2P',monospace] text-[10px] md:text-lg text-[#311005]">A Desenvolvedora</h2>
             </div>
             <p className="font-sans font-bold text-sm md:text-lg leading-relaxed text-[#4D2607]">
-              Olá! Meu nome é <strong>Ketlin Oliveira</strong>. Sou estudante de Análise e Desenvolvimento de Sistemas no IFBA e apaixonada por tecnologia.
+              Olá! Meu nome é <strong>Ketlin Oliveira</strong>. Sou estudante de Análise e Desenvolvimento de Sistemas no IFBA e apaixonada por tecnologia. Sou desenvolvedora FullStack em constante desenvolvimento e sempre disposta a criar novos projetos!
+            </p>
+          </section>
+
+
+              <section className="flex flex-col gap-3 md:gap-4">
+            <div className="flex items-center gap-3 border-b-4 border-dashed border-[#d1a36a] pb-2">
+              <span className="text-2xl md:text-3xl">❤️</span>
+              <h2 className="font-['Press_Start_2P',monospace] text-[10px] md:text-lg text-[#311005]">Gostou do Projeto?</h2>
+            </div>
+            <p className="font-sans font-bold text-sm md:text-lg leading-relaxed text-[#4D2607]">
+              Vamos criar algo juntos! Acesse meu <strong>portifolio</strong>, na sessão "contatos" e me envie sua mensagem! Vamos transformar ideias criativas em projetos web! 
             </p>
           </section>
 
           <section className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 mt-4 pt-6 border-t-4 border-[#d1a36a]">
             <a href="https://github.com/KetlinOlliveira" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full md:w-auto gap-3 bg-[#e6a103] border-b-4 border-r-4 border-[#a86501] px-6 py-3 hover:brightness-110 active:border-0 active:translate-y-1 transition-all text-[#311005] font-['Press_Start_2P',monospace] text-[10px] no-underline">
-              <img src="/assets/images/botoes/github-btn.png" alt="GitHub" className="w-5 h-5 [image-rendering:pixelated]" onError={(e) => { e.target.style.display = 'none' }} />
-              GITHUB
+              <span className="text-base">🖥️</span> GITHUB
             </a>
             <a href="https://portifolio-ket.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full md:w-auto gap-3 bg-[#e6a103] border-b-4 border-r-4 border-[#a86501] px-6 py-3 hover:brightness-110 active:border-0 active:translate-y-1 transition-all text-[#311005] font-['Press_Start_2P',monospace] text-[10px] no-underline">
               <span className="text-base">🌟</span> PORTFÓLIO
