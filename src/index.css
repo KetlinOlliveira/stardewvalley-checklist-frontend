@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: 'StardewValley';
-  src: url('/assets/fonts/Stardew_Valley.ttf') format('truetype');
+  src: url('./assets/fonts/Stardew_Valley.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('/assets/fonts/nunito.ttf') format('truetype');
+  src: url('./assets/fonts/nunito.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,4 +32,32 @@
 .cor-local {
   color: #15803d; /* Verde floresta */
   font-weight: 900;
+}
+
+/* ========================================================
+   LINHA ESTILO STARDEW VALLEY 
+======================================================== */
+/* ========================================================
+   LINHA DIVISÓRIA ORIGINAL DO STARDEW VALLEY
+======================================================== */
+/* ========================================================
+   LINHA ONDA (ZIGUE-ZAGUE) - DEFINITIVA
+======================================================== */
+.linha-onda {
+  display: block;
+  border: none;
+  height: 12px;
+  width: 100%;
+  margin: 2rem auto; /* auto centraliza caso usemos max-w */
+  
+  /* SVG embutido com cor marrom super escura (#3e1f0b) para dar contraste no fundo */
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6 L5 0 L15 10 L20 5' stroke='%233e1f0b' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.8; /* Dá uma leve suavizada para não ficar agressivo */
+}
+
+.strong{
+  text: #406AAF;
 }
