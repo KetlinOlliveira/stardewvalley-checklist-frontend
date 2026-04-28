@@ -18,6 +18,8 @@
 
 Este projeto é um guia interativo completo para auxiliar jogadores de **Stardew Valley** na jornada de restauração do Centro Comunitário. Desenvolvido como parte do meu aprendizado em **Análise e Desenvolvimento de Sistemas (IFBA)**, o sistema une a nostalgia do pixel art com uma arquitetura moderna e escalável.
 
+Acesse aqui: https://stardewvalley-guia.vercel.app
+
 O guia permite visualizar todos os conjuntos (bundles), as salas do centro e os itens necessários, com informações detalhadas consumidas diretamente de uma API personalizada.
 
 ---
