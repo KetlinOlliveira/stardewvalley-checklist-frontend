@@ -76,16 +76,16 @@ export const stardewCategorias = [
       {
         id: "plantacoes_verao", titulo: "Plantações Verão", npcImage: "/assets/images/conjuntos/plantacoes_verao.png", recompensa: { nome: "Aspersor (1)", icone: "/assets/images/images-itens/recompensas/aspersor.png" },
         itens: [
-          { idBackend: 29, nome: "Tomate", icon: "/assets/images/images-itens/copa/tomate.png", descricao: "Fruto vermelho.", comoObter: "Cultivo (Verão)" },
+          { idBackend: 29, nome: "Tomate", icon: "/assets/images/images-itens/copa/Tomate.png", descricao: "Fruto vermelho.", comoObter: "Cultivo (Verão)" },
           { idBackend: 30, nome: "Pimenta", icon: "/assets/images/images-itens/copa/pimenta-quente.png", descricao: "Ardida.", comoObter: "Cultivo (Verão)" },
-          { idBackend: 31, nome: "Mirtilo", icon: "/assets/images/images-itens/copa/mirtilo.png", descricao: "Rende muito.", comoObter: "Cultivo (Verão)" },
-          { idBackend: 32, nome: "Melão", icon: "/assets/images/images-itens/copa/melao.png", descricao: "Fruta doce e grande.", comoObter: "Cultivo (Verão)" }
+          { idBackend: 31, nome: "Mirtilo", icon: "/assets/images/images-itens/copa/Mirtilo.png", descricao: "Rende muito.", comoObter: "Cultivo (Verão)" },
+          { idBackend: 32, nome: "Melão", icon: "/assets/images/images-itens/copa/Melao.png", descricao: "Fruta doce e grande.", comoObter: "Cultivo (Verão)" }
         ]
       },
       {
         id: "plantacoes_outono", titulo: "Plantações Outono", npcImage: "/assets/images/conjuntos/plantacoes_outono.png", recompensa: { nome: "Espantalho (1)", icone: "/assets/images/images-itens/recompensas/espantalho.png" },
         itens: [
-          { idBackend: 33, nome: "Milho", icon: "/assets/images/images-itens/copa/milho.png", descricao: "Cultivo duradouro.", comoObter: "Cultivo (V/O)" },
+          { idBackend: 33, nome: "Milho", icon: "/assets/images/images-itens/copa/Milho.png", descricao: "Cultivo duradouro.", comoObter: "Cultivo (V/O)" },
           { idBackend: 34, nome: "Berinjela", icon: "/assets/images/images-itens/copa/berinjela.png", descricao: "Fruto roxo.", comoObter: "Cultivo (Outono)" },
           { idBackend: 35, nome: "Abóbora", icon: "/assets/images/images-itens/copa/abobora.png", descricao: "Rainha do outono.", comoObter: "Cultivo (Outono)" },
           { idBackend: 36, nome: "Inhame", icon: "/assets/images/images-itens/copa/inhame.png", descricao: "Raiz doce.", comoObter: "Cultivo (Outono)" }
@@ -102,9 +102,9 @@ export const stardewCategorias = [
       {
         id: "animal", titulo: "Conjunto Animal", npcImage: "/assets/images/conjuntos/animal.png", recompensa: { nome: "Prensa (1)", icone: "/assets/images/images-itens/recompensas/prensa-queijo.png" },
         itens: [
-          { idBackend: 40, nome: "Leite Gr.", icon: "/assets/images/images-itens/copa/leite-grande.png", descricao: "Muito nutritivo.", comoObter: "Vacas felizes" },
+          { idBackend: 40, nome: "Leite Gr.", icon: "/assets/images/images-itens/copa/Leite-grande.png", descricao: "Muito nutritivo.", comoObter: "Vacas felizes" },
           { idBackend: 41, nome: "Ovo Marrom", icon: "/assets/images/images-itens/copa/ovo-grande-marrom.png", descricao: "Ovo grande.", comoObter: "Galinhas marrons felizes" },
-          { idBackend: 42, nome: "Ovo Branco", icon: "/assets/images/images-itens/copa/ovo-grande-branco.png", descricao: "Ovo grande.", comoObter: "Galinhas brancas felizes" },
+          { idBackend: 42, nome: "Ovo Branco", icon: "/assets/images/images-itens/copa/Ovo-grande-branco.png", descricao: "Ovo grande.", comoObter: "Galinhas brancas felizes" },
           { idBackend: 43, nome: "L. Cabra Gr.", icon: "/assets/images/images-itens/copa/leite-grande-cabra.png", descricao: "Leite exótico.", comoObter: "Cabras felizes" },
           { idBackend: 44, nome: "Lã", icon: "/assets/images/images-itens/copa/la.png", descricao: "Quentinha.", comoObter: "Ovelhas ou Coelhos felizes" }
         ]
@@ -113,10 +113,10 @@ export const stardewCategorias = [
         id: "artesao", titulo: "Conjunto Artesão", npcImage: "/assets/images/conjuntos/artesao.png", recompensa: { nome: "Tear (1)", icone: "/assets/images/images-itens/recompensas/tear.png" },
         itens: [
           { idBackend: 45, nome: "Óleo Trufado", icon: "/assets/images/images-itens/copa/oleo-trufado.png", descricao: "Gourmet.", comoObter: "Máquina de Óleo" },
-          { idBackend: 46, nome: "Tecido", icon: "/assets/images/images-itens/copa/tecido.png", descricao: "Feito de Lã.", comoObter: "Tear" },
+          { idBackend: 46, nome: "Tecido", icon: "/assets/images/images-itens/copa/Tecido.png", descricao: "Feito de Lã.", comoObter: "Tear" },
           { idBackend: 47, nome: "Q. de Cabra", icon: "/assets/images/images-itens/copa/queijo-cabra.png", descricao: "Queijo exótico.", comoObter: "Prensa de Queijo" },
-          { idBackend: 48, nome: "Queijo", icon: "/assets/images/images-itens/copa/queijo.png", descricao: "Amarelo e bom.", comoObter: "Prensa de Queijo" },
-          { idBackend: 49, nome: "Mel", icon: "/assets/images/images-itens/copa/mel.png", descricao: "Doce néctar.", comoObter: "Casa da Abelha" },
+          { idBackend: 48, nome: "Queijo", icon: "/assets/images/images-itens/copa/Queijo.png", descricao: "Amarelo e bom.", comoObter: "Prensa de Queijo" },
+          { idBackend: 49, nome: "Mel", icon: "/assets/images/images-itens/copa/Mel.png", descricao: "Doce néctar.", comoObter: "Casa da Abelha" },
           { idBackend: 50, nome: "Geleia", icon: "/assets/images/images-itens/copa/geleia.png", descricao: "Feita de frutas.", comoObter: "Frasco de Conserva" }
         ]
       }
@@ -130,9 +130,9 @@ export const stardewCategorias = [
       {
         id: "peixes_rio", titulo: "Peixes de Rio", npcImage: "/assets/images/conjuntos/peixes_rio.png", recompensa: { nome: "Iscas (30)", icone: "/assets/images/images-itens/recompensas/isca.png" },
         itens: [
-          { idBackend: 51, nome: "Peixe-sol", icon: "/assets/images/images-itens/aquario/peixe-sol.png", descricao: "Peixe de dia.", comoObter: "Pesca (Rio/Dia)" },
-          { idBackend: 52, nome: "Bagre", icon: "/assets/images/images-itens/aquario/bagre.png", descricao: "Gosta de chuva.", comoObter: "Pesca (Rio/Chuva)" },
-          { idBackend: 53, nome: "Alocine", icon: "/assets/images/images-itens/aquario/alocine.png", descricao: "Peixe prateado.", comoObter: "Pesca (Rio/Chuva)" },
+          { idBackend: 51, nome: "Peixe-sol", icon: "/assets/images/images-itens/aquario/Peixe-sol.png", descricao: "Peixe de dia.", comoObter: "Pesca (Rio/Dia)" },
+          { idBackend: 52, nome: "Bagre", icon: "/assets/images/images-itens/aquario/Bagre.png", descricao: "Gosta de chuva.", comoObter: "Pesca (Rio/Chuva)" },
+          { idBackend: 53, nome: "Alocine", icon: "/assets/images/images-itens/aquario/Alocine.png", descricao: "Peixe prateado.", comoObter: "Pesca (Rio/Chuva)" },
           { idBackend: 54, nome: "Híbrido", icon: "/assets/images/images-itens/aquario/hibrido.png", descricao: "Peixe de rio escuro.", comoObter: "Pesca (Bosque Secreto)" }
         ]
       },
@@ -140,45 +140,45 @@ export const stardewCategorias = [
         id: "peixes_lago", titulo: "Peixes de Lago", npcImage: "/assets/images/conjuntos/peixes_lago.png", recompensa: { nome: "Covo (1)", icone: "/assets/images/images-itens/recompensas/covo.png" },
         itens: [
           { idBackend: 55, nome: "Achigã", icon: "/assets/images/images-itens/aquario/achiga.png", descricao: "Peixe de lago comum.", comoObter: "Pesca (Lago da Montanha)" },
-          { idBackend: 56, nome: "Carpa", icon: "/assets/images/images-itens/aquario/carpa.png", descricao: "Peixe tranquilo.", comoObter: "Pesca (Lago da Montanha)" },
+          { idBackend: 56, nome: "Carpa", icon: "/assets/images/images-itens/aquario/Carpa.png", descricao: "Peixe tranquilo.", comoObter: "Pesca (Lago da Montanha)" },
           { idBackend: 57, nome: "P.G. Cabeçudo", icon: "/assets/images/images-itens/aquario/peixe-gato.png", descricao: "Um peixe estranho.", comoObter: "Pesca (Lago da Montanha)" },
-          { idBackend: 58, nome: "Esturjão", icon: "/assets/images/images-itens/aquario/esturjao.png", descricao: "Cria caviar.", comoObter: "Pesca (Lago da Montanha)" }
+          { idBackend: 58, nome: "Esturjão", icon: "/assets/images/images-itens/aquario/Esturjao.png", descricao: "Cria caviar.", comoObter: "Pesca (Lago da Montanha)" }
         ]
       },
       {
         id: "peixes_oceano", titulo: "Peixes de Oceano", npcImage: "/assets/images/conjuntos/peixes_oceano.png", recompensa: { nome: "Totem (5)", icone: "/assets/images/images-itens/recompensas/totem-praia.png" },
         itens: [
-          { idBackend: 59, nome: "Sardinha", icon: "/assets/images/images-itens/aquario/sardinha.png", descricao: "Pequeno do mar.", comoObter: "Pesca (Oceano)" },
-          { idBackend: 60, nome: "Atum", icon: "/assets/images/images-itens/aquario/atum.png", descricao: "Ótimo para sushi.", comoObter: "Pesca (Oceano)" },
-          { idBackend: 61, nome: "Cioba", icon: "/assets/images/images-itens/aquario/cioba.png", descricao: "Peixe vermelho.", comoObter: "Pesca (Oceano)" },
-          { idBackend: 62, nome: "Tilápia", icon: "/assets/images/images-itens/aquario/tilapia.png", descricao: "Gosta de clima morno.", comoObter: "Pesca (Oceano)" }
+          { idBackend: 59, nome: "Sardinha", icon: "/assets/images/images-itens/aquario/Sardinha.png", descricao: "Pequeno do mar.", comoObter: "Pesca (Oceano)" },
+          { idBackend: 60, nome: "Atum", icon: "/assets/images/images-itens/aquario/Atum.png", descricao: "Ótimo para sushi.", comoObter: "Pesca (Oceano)" },
+          { idBackend: 61, nome: "Cioba", icon: "/assets/images/images-itens/aquario/Coba.png", descricao: "Peixe vermelho.", comoObter: "Pesca (Oceano)" },
+          { idBackend: 62, nome: "Tilápia", icon: "/assets/images/images-itens/aquario/Tilapia.png", descricao: "Gosta de clima morno.", comoObter: "Pesca (Oceano)" }
         ]
       },
       {
         id: "peixe_noturno", titulo: "Peixes Noturnos", npcImage: "/assets/images/conjuntos/peixes_noturno.png", recompensa: { nome: "Anel Brilhante", icone: "/assets/images/images-itens/recompensas/anel-brilhante.png" },
         itens: [
           { idBackend: 63, nome: "Picão-verde", icon: "/assets/images/images-itens/aquario/picao.png", descricao: "Sombra na água.", comoObter: "Pesca (Rio/Noite)" },
-          { idBackend: 64, nome: "Brema", icon: "/assets/images/images-itens/aquario/brema.png", descricao: "Comum na noite.", comoObter: "Pesca (Rio/Noite)" },
-          { idBackend: 65, nome: "Enguia", icon: "/assets/images/images-itens/aquario/enguia.png", descricao: "Fina e escorregadia.", comoObter: "Pesca (Oceano/Chuva/Noite)" }
+          { idBackend: 64, nome: "Brema", icon: "/assets/images/images-itens/aquario/Brema.png", descricao: "Comum na noite.", comoObter: "Pesca (Rio/Noite)" },
+          { idBackend: 65, nome: "Enguia", icon: "/assets/images/images-itens/aquario/Enguia.png", descricao: "Fina e escorregadia.", comoObter: "Pesca (Oceano/Chuva/Noite)" }
         ]
       },
       {
         id: "covo", titulo: "Conjunto Covo", npcImage: "/assets/images/conjuntos/covo.png", recompensa: { nome: "Covo (3)", icone: "/assets/images/images-itens/recompensas/covo.png" },
         itens: [
-          { idBackend: 66, nome: "Lagosta", icon: "/assets/images/images-itens/aquario/lagosta.png", descricao: "Bicho de casca.", comoObter: "Covo (Oceano)" },
-          { idBackend: 67, nome: "Lagostim", icon: "/assets/images/images-itens/aquario/lagostim.png", descricao: "Lagosta de água doce.", comoObter: "Covo (Água Doce)" },
+          { idBackend: 66, nome: "Lagosta", icon: "/assets/images/images-itens/aquario/Lagosta.png", descricao: "Bicho de casca.", comoObter: "Covo (Oceano)" },
+          { idBackend: 67, nome: "Lagostim", icon: "/assets/images/images-itens/aquario/Lagostim.png", descricao: "Lagosta de água doce.", comoObter: "Covo (Água Doce)" },
           { idBackend: 68, nome: "Caranguejo", icon: "/assets/images/images-itens/aquario/carangueijo.png", descricao: "Pinça afiada.", comoObter: "Covo (Oceano) ou Minas" },
-          { idBackend: 69, nome: "Berbigão", icon: "/assets/images/images-itens/aquario/berbigao.png", descricao: "Concha pequena.", comoObter: "Covo (Oceano) ou Coleta" },
-          { idBackend: 70, nome: "Mexilhão", icon: "/assets/images/images-itens/aquario/mexilhao.png", descricao: "Comum na praia.", comoObter: "Covo (Oceano) ou Coleta" }
+          { idBackend: 69, nome: "Berbigão", icon: "/assets/images/images-itens/aquario/Berbigao.png", descricao: "Concha pequena.", comoObter: "Covo (Oceano) ou Coleta" },
+          { idBackend: 70, nome: "Mexilhão", icon: "/assets/images/images-itens/aquario/Mexilhao.png", descricao: "Comum na praia.", comoObter: "Covo (Oceano) ou Coleta" }
         ]
       },
       {
         id: "peixes_especializados", titulo: "Peixes Especiais", npcImage: "/assets/images/conjuntos/peixes_especializados.png", recompensa: { nome: "Prato do Mar", icone: "/assets/images/images-itens/recompensas/prato-mar.png" },
         itens: [
-          { idBackend: 71, nome: "Baiacu", icon: "/assets/images/images-itens/aquario/baiacu.png", descricao: "Venenoso e caro.", comoObter: "Pesca (Oceano/Verão)" },
-          { idBackend: 72, nome: "P. Fantasma", icon: "/assets/images/images-itens/aquario/peixe-fantasma.png", descricao: "Peixe cego e pálido.", comoObter: "Pesca (Minas)" },
-          { idBackend: 73, nome: "Areinha", icon: "/assets/images/images-itens/aquario/areinha.png", descricao: "Esconde-se na areia.", comoObter: "Pesca (Deserto)" },
-          { idBackend: 74, nome: "Madeirão", icon: "/assets/images/images-itens/aquario/madeirao.png", descricao: "Peixe lenhador.", comoObter: "Pesca (Bosque Secreto)" }
+          { idBackend: 71, nome: "Baiacu", icon: "/assets/images/images-itens/aquario/Baiacu.png", descricao: "Venenoso e caro.", comoObter: "Pesca (Oceano/Verão)" },
+          { idBackend: 72, nome: "P. Fantasma", icon: "/assets/images/images-itens/aquario/Peixe-fantasma.png", descricao: "Peixe cego e pálido.", comoObter: "Pesca (Minas)" },
+          { idBackend: 73, nome: "Areinha", icon: "/assets/images/images-itens/aquario/Areinha.png", descricao: "Esconde-se na areia.", comoObter: "Pesca (Deserto)" },
+          { idBackend: 74, nome: "Madeirão", icon: "/assets/images/images-itens/aquario/Madeirao.png", descricao: "Peixe lenhador.", comoObter: "Pesca (Bosque Secreto)" }
         ]
       }
     ]
@@ -199,7 +199,7 @@ export const stardewCategorias = [
       {
         id: "geologo", titulo: "Conjunto Geólogo", npcImage: "/assets/images/conjuntos/geologo.png", recompensa: { nome: "Omnigeodo (5)", icone: "/assets/images/images-itens/recompensas/omnigeodo.png" },
         itens: [
-          { idBackend: 78, nome: "Quartzo", icon: "/assets/images/images-itens/caldeira/quartzo.png", descricao: "Um cristal claro.", comoObter: "Coleta (Minas)" },
+          { idBackend: 78, nome: "Quartzo", icon: "/assets/images/images-itens/caldeira/Quartzo.png", descricao: "Um cristal claro.", comoObter: "Coleta (Minas)" },
           { idBackend: 79, nome: "Crist. Terra", icon: "/assets/images/images-itens/caldeira/cristal-terra.png", descricao: "Contém a força da terra.", comoObter: "Coleta (Minas) ou Geodos" },
           { idBackend: 80, nome: "Lágrima C.", icon: "/assets/images/images-itens/caldeira/lagrima-congelada.png", descricao: "Gélido ao toque.", comoObter: "Coleta (Minas) ou Geodos" },
           { idBackend: 81, nome: "Quartzo Fogo", icon: "/assets/images/images-itens/caldeira/quartzo-fogo.png", descricao: "Quente ao toque.", comoObter: "Coleta (Minas) ou Magma Geodo" }
@@ -208,7 +208,7 @@ export const stardewCategorias = [
       {
         id: "aventureiro", titulo: "C. Aventureiro", npcImage: "/assets/images/conjuntos/aventureiro.png", recompensa: { nome: "Ímã (1)", icone: "/assets/images/images-itens/recompensas/anel-ima.png" },
         itens: [
-          { idBackend: 82, nome: "Gosma", icon: "/assets/images/images-itens/caldeira/gosma.png", descricao: "Pegajoso e nojento.", comoObter: "Matar Gosmas (Minas)" },
+          { idBackend: 82, nome: "Gosma", icon: "/assets/images/images-itens/caldeira/Gosma.png", descricao: "Pegajoso e nojento.", comoObter: "Matar Gosmas (Minas)" },
           { idBackend: 83, nome: "Asa Morcego", icon: "/assets/images/images-itens/caldeira/asa-morcego.png", descricao: "Estranho e de couro.", comoObter: "Matar Morcegos (Minas)" }
         ]
       }
@@ -224,10 +224,10 @@ export const stardewCategorias = [
         itens: [
           { idBackend: 84, nome: "Xarope", icon: "/assets/images/images-itens/mural/xarope-acer.png", descricao: "Doce seiva de árvore.", comoObter: "Tornear Árvore de Ácer" },
           { idBackend: 85, nome: "Broto Sam.", icon: "/assets/images/images-itens/mural/broto-samambaia.png", descricao: "Matos comestíveis.", comoObter: "Coleta (Bosque Secreto/Verão)" },
-          { idBackend: 86, nome: "Trufa", icon: "/assets/images/images-itens/mural/trufa.png", descricao: "Um cogumelo raro.", comoObter: "Porcos (Fora de Estábulo)" },
-          { idBackend: 87, nome: "Papoula", icon: "/assets/images/images-itens/mural/papoula.png", descricao: "Flor vibrante.", comoObter: "Cultivo (Verão)" },
+          { idBackend: 86, nome: "Trufa", icon: "/assets/images/images-itens/mural/Trufa.png", descricao: "Um cogumelo raro.", comoObter: "Porcos (Fora de Estábulo)" },
+          { idBackend: 87, nome: "Papoula", icon: "/assets/images/images-itens/mural/Papoula.png", descricao: "Flor vibrante.", comoObter: "Cultivo (Verão)" },
           { idBackend: 88, nome: "E. Arroz", icon: "/assets/images/images-itens/mural/enroladinho-arroz.png", descricao: "Fácil de fazer.", comoObter: "Cozinha" },
-          { idBackend: 89, nome: "Ovo Frito", icon: "/assets/images/images-itens/mural/ovo-frito.png", descricao: "Café da manhã clássico.", comoObter: "Cozinha" }
+          { idBackend: 89, nome: "Ovo Frito", icon: "/assets/images/images-itens/mural/Ovo-frito.png", descricao: "Café da manhã clássico.", comoObter: "Cozinha" }
         ]
       },
       {
@@ -235,7 +235,7 @@ export const stardewCategorias = [
         itens: [
           { idBackend: 90, nome: "Cog. Verm.", icon: "/assets/images/images-itens/mural/cog-vermelho.png", descricao: "Usado para corante.", comoObter: "Coleta nas Minas" },
           { idBackend: 91, nome: "Ouriço", icon: "/assets/images/images-itens/mural/ourico.png", descricao: "Pequeno ouriço azul.", comoObter: "Coleta na Praia" },
-          { idBackend: 92, nome: "Girassol", icon: "/assets/images/images-itens/mural/girassol.png", descricao: "Sempre buscando o sol.", comoObter: "Cultivo (Verão/Outono)" },
+          { idBackend: 92, nome: "Girassol", icon: "/assets/images/images-itens/mural/Girassol.png", descricao: "Sempre buscando o sol.", comoObter: "Cultivo (Verão/Outono)" },
           { idBackend: 93, nome: "Pena Pato", icon: "/assets/images/images-itens/mural/pena-pato.png", descricao: "Colorida e brilhante.", comoObter: "Patos felizes" },
           { idBackend: 94, nome: "Água Mar.", icon: "/assets/images/images-itens/mural/agua-marinha.png", descricao: "Joia azul-esverdeada.", comoObter: "Mineração" },
           { idBackend: 95, nome: "Rep. Roxo", icon: "/assets/images/images-itens/mural/repolho-roxo.png", descricao: "Cultivo nutritivo.", comoObter: "Cultivo (Verão - Ano 2)" }
@@ -253,8 +253,8 @@ export const stardewCategorias = [
       {
         id: "forragem", titulo: "Conjunto Forragem", npcImage: "/assets/images/conjuntos/forragem.png", recompensa: { nome: "Aquecedor (1)", icone: "/assets/images/images-itens/recompensas/aquecedor.png" },
         itens: [
-          { idBackend: 100, nome: "Trigo", icon: "/assets/images/images-itens/mural/trigo.png", descricao: "Faz farinha.", comoObter: "Cultivo (Verão/Outono)" },
-          { idBackend: 101, nome: "Palha", icon: "/assets/images/images-itens/mural/palha.png", descricao: "Comida para animais.", comoObter: "Foice no mato" },
+          { idBackend: 100, nome: "Trigo", icon: "/assets/images/images-itens/mural/Trigo.png", descricao: "Faz farinha.", comoObter: "Cultivo (Verão/Outono)" },
+          { idBackend: 101, nome: "Palha", icon: "/assets/images/images-itens/mural/Palha.png", descricao: "Comida para animais.", comoObter: "Foice no mato" },
           { idBackend: 102, nome: "Maçã", icon: "/assets/images/images-itens/mural/maca.png", descricao: "Fruta clássica.", comoObter: "Macieira (Outono)" }
         ]
       },
@@ -262,7 +262,7 @@ export const stardewCategorias = [
         id: "encantador", titulo: "C. Encantador", npcImage: "/assets/images/conjuntos/encantador.png", recompensa: { nome: "Barra de Ouro (5)", icone: "/assets/images/images-itens/recompensas/barra-ouro.png" },
         itens: [
           { idBackend: 103, nome: "Res. Carv.", icon: "/assets/images/images-itens/mural/resina-carvalho.png", descricao: "Pegajoso.", comoObter: "Tornear Carvalho" },
-          { idBackend: 104, nome: "Vinho", icon: "/assets/images/images-itens/mural/vinho.png", descricao: "Bebida fermentada.", comoObter: "Barril" },
+          { idBackend: 104, nome: "Vinho", icon: "/assets/images/images-itens/mural/Vinho.png", descricao: "Bebida fermentada.", comoObter: "Barril" },
           { idBackend: 105, nome: "Pé Coelho", icon: "/assets/images/images-itens/mural/pe-coelho.png", descricao: "Dá sorte.", comoObter: "Coelhos muito felizes" },
           { idBackend: 106, nome: "Romã", icon: "/assets/images/images-itens/mural/roma.png", descricao: "Fruta com sementes.", comoObter: "Árvore de Romã (Outono)" }
         ]
@@ -300,10 +300,10 @@ export const stardewCategorias = [
       {
         id: "desaparecida", titulo: "C. Desaparecida", npcImage: "/assets/images/conjuntos/desaparecida.png", recompensa: { nome: "Construção do Cinema", icone: "/assets/images/images-itens/joja/cinema.png" },
         itens: [
-          { idBackend: 111, nome: "Vinho Prata", icon: "/assets/images/images-itens/joja/vinho.png", descricao: "Vinho de alta qualidade.", comoObter: "Barril + Porão" },
+          { idBackend: 111, nome: "Vinho Prata", icon: "/assets/images/images-itens/joja/Vinho.png", descricao: "Vinho de alta qualidade.", comoObter: "Barril + Porão" },
           { idBackend: 112, nome: "Maionese Dino", icon: "/assets/images/images-itens/joja/maionese-dinossauro.png", descricao: "Verde e pegajosa.", comoObter: "Máquina de Maionese (Ovo Dino)" },
           { idBackend: 113, nome: "Frag. Prism.", icon: "/assets/images/images-itens/joja/fragmento-prismatico.png", descricao: "A joia mais rara.", comoObter: "Mineração Profunda" },
-          { idBackend: 114, nome: "Caviar", icon: "/assets/images/images-itens/joja/caviar.png", descricao: "Gourmet.", comoObter: "Pote de Conserva (Ovas de Esturjão)" },
+          { idBackend: 114, nome: "Caviar", icon: "/assets/images/images-itens/joja/Caviar.png", descricao: "Gourmet.", comoObter: "Pote de Conserva (Ovas de Esturjão)" },
           { idBackend: 115, nome: "Salmão Nulo", icon: "/assets/images/images-itens/joja/salmao-nulo.png", descricao: "Peixe do vazio (Ouro).", comoObter: "Pesca no Pântano da Bruxa" }
         ]
       }
